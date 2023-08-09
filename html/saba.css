@@ -1,0 +1,38 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: darkred;
+    position:relative;
+    animation:movesquare 4s 2;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+}
+@keyframes movesquare {
+0%{
+    top:0;
+    left:0;
+    background-color: aqua;
+
+
+}
+25%{
+    top:0;
+    left:200px;
+    background-color: blue;
+
+}
+/* 50%{
+    top:200px;
+    left:200px;
+
+
+}/*
+
+
+/* 75%{
+    top:200px;
+    left:0;
+    
+    
+}

@@ -1,0 +1,7 @@
+const person={
+person.name="naina";
+person.class="black";
+}
+for(let x in person){
+    console.log(x);
+}
